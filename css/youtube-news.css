@@ -1,0 +1,95 @@
+.product-youtube,
+.product-news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cart-youtube {
+  display: grid;
+  grid-template-rows: 210px 150px 40px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cart-youtube:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cart-img {
+  grid-area: image;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: url("/img/news1.jpg");
+  background-size: cover;
+}
+
+.cart-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.cart-text .date {
+  color: #800000;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cart-text p {
+  color: #800000;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cart-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.cart-stats {
+  grid-area: stats;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #b22222;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-stats .stat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.youtube-numb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtube-numb a {
+  align-items: center;
+  background: #b22222;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.youtube-numb a i {
+  margin: 0 20px;
+  color: #800000;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}

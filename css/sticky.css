@@ -1,0 +1,65 @@
+aside {
+  position: fixed;
+  width: 60px;
+  margin-top: 150px;
+  top: 150;
+  left: 0;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+aside li {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+aside li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: all 0.5s linear;
+}
+
+aside li:nth-child(1) a {
+  background-color: #4267b2;
+}
+
+aside li:nth-child(2) a {
+  background-color: #1da1f2;
+}
+aside li:nth-child(3) a {
+  background-color: #ff0000;
+}
+
+aside li a i {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  font-size: 27px;
+}
+
+aside li a span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: none;
+}
+a:hover {
+  z-index: 1;
+  width: 190px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+ul li a:hover span {
+  display: block;
+  padding-left: 20%;
+}
