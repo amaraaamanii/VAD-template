@@ -52,7 +52,7 @@ aside li a span {
   text-transform: uppercase;
   display: none;
 }
-a:hover {
+aside li a:hover {
   z-index: 1;
   width: 190px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
